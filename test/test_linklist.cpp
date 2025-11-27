@@ -26,5 +26,9 @@ int main() {
     l1.print();
     b = 100;
     l1.print();
+    LinkList<int> l2 = l1;
+    l2.push_back(100);
+    l2.print();
+    l1.print();
     return 0;
 };
